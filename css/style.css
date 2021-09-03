@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.section-product img{
+    width:calc(950px / 3);
+    height: 450px;
+
+}
+
+.section-container{
+    width: 1000px;
+    height: auto;
+    border: 1px solid black;
+    margin: 20px auto;
+    
+}
+
+.section-product{
+    height: 530px;
+}
