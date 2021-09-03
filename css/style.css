@@ -2,12 +2,11 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 .section-product img{
-    width:calc(950px / 3);
     height: 450px;
-
 }
 
 .section-container{
@@ -19,5 +18,25 @@
 }
 
 .section-product{
-    height: 530px;
+    width:calc(1000px / 3);
+    height: auto;
+}
+
+.product-brand{
+    font-size:15px;
+    color: gray;
+}
+
+.product-name{
+    font-weight: bold;
+}
+
+.product-price{
+    color:red;
+    font-weight: bold;
+}
+
+.product-discount{
+    font-size: 15px;
+    text-decoration: line-through;
 }
