@@ -5,22 +5,51 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.section-product img{
+div.product-overlay :nth-child(2){
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+}
+
+.product-overlay:hover :nth-child(2){
+
+    display: block;
+
+}
+
+.product-overlay button{
+    color:black;
+    font-size: 40px;
+    background-color: white;
+    border: 0;
+    top:15px;
+    right:0;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.section-container img{
     width: 100%;
     height: 450px;
+}
+
+.section-product:last-child .product-overlay > div{
+    left:0;
+
 }
 
 .section-container{
     width: 1000px;
     height: auto;
-    border: 1px solid black;
     margin: 20px auto;
     
 }
 
 .section-product{
-    width:calc(1000px / 3);
+    width:auto;
     height: auto;
+    display:inline-block;
 }
 
 .product-brand{
@@ -67,12 +96,3 @@
     left: 50px;
 }
 
-.wishlist{
-    color:black;
-    top:15px;
-    right:0;
-    font-size: 40px;
-    background-color: white;
-    padding-right: 20px;
-    padding-left: 20px;
-}
